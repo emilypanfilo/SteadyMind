@@ -29,19 +29,25 @@ class SettingsScreen extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.timer),
               title: const Text("25 Minutes"),
-              onTap: () {},
+              onTap: () {
+                Navigator.pop(context, 1500);
+              },
             ),
 
             ListTile(
               leading: const Icon(Icons.timer),
               title: const Text("30 Minutes"),
-              onTap: () {},
+              onTap: () {
+                Navigator.pop(context, 1800);
+              },
             ),
 
             ListTile(
               leading: const Icon(Icons.timer),
               title: const Text("45 Minutes"),
-              onTap: () {},
+              onTap: () {
+                Navigator.pop(context, 2700);
+              },
             ),
 
             const SizedBox(height: 30),
@@ -54,24 +60,32 @@ class SettingsScreen extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 8),
+
+            const Text(
+              "Break timer coming soon.",
+              style: TextStyle(
+                fontSize: 14,
+                fontStyle: FontStyle.italic,
+                color: Colors.grey,
+              ),
+            ),
+
             const SizedBox(height: 15),
 
-            ListTile(
-              leading: const Icon(Icons.coffee),
-              title: const Text("5 Minutes"),
-              onTap: () {},
+            const ListTile(
+              leading: Icon(Icons.coffee),
+              title: Text("5 Minutes"),
             ),
 
-            ListTile(
-              leading: const Icon(Icons.coffee),
-              title: const Text("10 Minutes"),
-              onTap: () {},
+            const ListTile(
+              leading: Icon(Icons.coffee),
+              title: Text("10 Minutes"),
             ),
 
-            ListTile(
-              leading: const Icon(Icons.coffee),
-              title: const Text("15 Minutes"),
-              onTap: () {},
+            const ListTile(
+              leading: Icon(Icons.coffee),
+              title: Text("15 Minutes"),
             ),
           ],
         ),
