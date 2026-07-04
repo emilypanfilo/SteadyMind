@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "954260616614",
+    "project_id": "steadymind-31cc7",
+    "storage_bucket": "steadymind-31cc7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954260616614:android:9a7f6ab6d022cb2fe60b67",
+        "android_client_info": {
+          "package_name": "com.example.pomodoro_timer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRPyL2CPhYnSfuyph0uKXkB1VDfLMJ3Lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
